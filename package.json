@@ -1,0 +1,30 @@
+{
+  "name": "monorepo-starter-next-expo",
+  "version": "1.0.0",
+  "description": "Monorepo based on NEXTJS 14 App router and Expo SDK 51+ with TailwindCSS",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "turbo": "^2.0.14"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-web": "~0.19.12",
+    "tailwindcss": "^3.4.1"
+  },
+  "packageManager": "yarn@1.22.22"
+}
