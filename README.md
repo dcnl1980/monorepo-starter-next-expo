@@ -1,7 +1,7 @@
 
 # Own Monorepo Starter
 
-This project is a monorepo setup using TypeScript, React Native, and Next.js. It includes shared components, app-specific logic, and configurations optimized for both web and native development.
+This project is a monorepo setup using TypeScript, React Native, and Next.js 15. It includes shared components, app-specific logic, and configurations optimized for both web and native development.
 
 ## Project Structure
 
